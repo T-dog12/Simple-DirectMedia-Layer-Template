@@ -8,8 +8,10 @@ int SDL_main(int argc, char* argv[])
 
 	// Initializes visuals
 	SDL_Init(SDL_INIT_VIDEO);
-
+	
 	Window = SDL_CreateWindow("SDL TEMPLATE WINDOW!", 640, 480, SDL_WINDOW_OPENGL);
+
+	// Fail Test
 	if (Window == NULL)
 	{
 		SDL_LogError(SDL_LOG_CATEGORY_ERROR, "COULD NOT CREATE WINDOW : %s\n ", SDL_GetError());
@@ -20,13 +22,16 @@ int SDL_main(int argc, char* argv[])
 	while (!end)
 	{
 		SDL_Event event;
+		// Checks if the window is exited
 		while (SDL_PollEvent(&event))
 		{
 			if(event.type == SDL_EVENT_QUIT) { end = true; }
 		}
 	}
-	SDL_DestroyWindow(Window);
 
+	// Clean up
+	SDL_DestroyWindow(Window);
 	SDL_Quit();
 	return 0;
+
 }
