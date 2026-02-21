@@ -1,0 +1,114 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Simple DirectMedia Layer</Name>
+    <Description>SDL ready template</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Simple DirectMedia Layer</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SDL_Template.vcxproj" File="SDL_Template.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">SDL_Template.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Application.cpp">SRC\Application.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL.h">INCLUDE\SDL3\SDL.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_assert.h">INCLUDE\SDL3\SDL_assert.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_asyncio.h">INCLUDE\SDL3\SDL_asyncio.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_atomic.h">INCLUDE\SDL3\SDL_atomic.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_audio.h">INCLUDE\SDL3\SDL_audio.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_begin_code.h">INCLUDE\SDL3\SDL_begin_code.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_bits.h">INCLUDE\SDL3\SDL_bits.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_blendmode.h">INCLUDE\SDL3\SDL_blendmode.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_camera.h">INCLUDE\SDL3\SDL_camera.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_clipboard.h">INCLUDE\SDL3\SDL_clipboard.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_close_code.h">INCLUDE\SDL3\SDL_close_code.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_copying.h">INCLUDE\SDL3\SDL_copying.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_cpuinfo.h">INCLUDE\SDL3\SDL_cpuinfo.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_dialog.h">INCLUDE\SDL3\SDL_dialog.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_dlopennote.h">INCLUDE\SDL3\SDL_dlopennote.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_egl.h">INCLUDE\SDL3\SDL_egl.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_endian.h">INCLUDE\SDL3\SDL_endian.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_error.h">INCLUDE\SDL3\SDL_error.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_events.h">INCLUDE\SDL3\SDL_events.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_filesystem.h">INCLUDE\SDL3\SDL_filesystem.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_gamepad.h">INCLUDE\SDL3\SDL_gamepad.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_gpu.h">INCLUDE\SDL3\SDL_gpu.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_guid.h">INCLUDE\SDL3\SDL_guid.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_haptic.h">INCLUDE\SDL3\SDL_haptic.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_hidapi.h">INCLUDE\SDL3\SDL_hidapi.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_hints.h">INCLUDE\SDL3\SDL_hints.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_init.h">INCLUDE\SDL3\SDL_init.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_intrin.h">INCLUDE\SDL3\SDL_intrin.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_iostream.h">INCLUDE\SDL3\SDL_iostream.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_joystick.h">INCLUDE\SDL3\SDL_joystick.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_keyboard.h">INCLUDE\SDL3\SDL_keyboard.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_keycode.h">INCLUDE\SDL3\SDL_keycode.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_loadso.h">INCLUDE\SDL3\SDL_loadso.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_locale.h">INCLUDE\SDL3\SDL_locale.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_log.h">INCLUDE\SDL3\SDL_log.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_main.h">INCLUDE\SDL3\SDL_main.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_main_impl.h">INCLUDE\SDL3\SDL_main_impl.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_messagebox.h">INCLUDE\SDL3\SDL_messagebox.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_metal.h">INCLUDE\SDL3\SDL_metal.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_misc.h">INCLUDE\SDL3\SDL_misc.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_mouse.h">INCLUDE\SDL3\SDL_mouse.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_mutex.h">INCLUDE\SDL3\SDL_mutex.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_oldnames.h">INCLUDE\SDL3\SDL_oldnames.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengl.h">INCLUDE\SDL3\SDL_opengl.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles.h">INCLUDE\SDL3\SDL_opengles.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles2.h">INCLUDE\SDL3\SDL_opengles2.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles2_gl2.h">INCLUDE\SDL3\SDL_opengles2_gl2.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles2_gl2ext.h">INCLUDE\SDL3\SDL_opengles2_gl2ext.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles2_gl2platform.h">INCLUDE\SDL3\SDL_opengles2_gl2platform.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengles2_khrplatform.h">INCLUDE\SDL3\SDL_opengles2_khrplatform.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_opengl_glext.h">INCLUDE\SDL3\SDL_opengl_glext.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_pen.h">INCLUDE\SDL3\SDL_pen.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_pixels.h">INCLUDE\SDL3\SDL_pixels.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_platform.h">INCLUDE\SDL3\SDL_platform.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_platform_defines.h">INCLUDE\SDL3\SDL_platform_defines.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_power.h">INCLUDE\SDL3\SDL_power.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_process.h">INCLUDE\SDL3\SDL_process.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_properties.h">INCLUDE\SDL3\SDL_properties.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_rect.h">INCLUDE\SDL3\SDL_rect.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_render.h">INCLUDE\SDL3\SDL_render.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_revision.h">INCLUDE\SDL3\SDL_revision.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_scancode.h">INCLUDE\SDL3\SDL_scancode.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_sensor.h">INCLUDE\SDL3\SDL_sensor.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_stdinc.h">INCLUDE\SDL3\SDL_stdinc.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_storage.h">INCLUDE\SDL3\SDL_storage.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_surface.h">INCLUDE\SDL3\SDL_surface.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_system.h">INCLUDE\SDL3\SDL_system.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test.h">INCLUDE\SDL3\SDL_test.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test_assert.h">INCLUDE\SDL3\SDL_test_assert.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test_common.h">INCLUDE\SDL3\SDL_test_common.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test_compare.h">INCLUDE\SDL3\SDL_test_compare.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test_crc32.h">INCLUDE\SDL3\SDL_test_crc32.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test_font.h">INCLUDE\SDL3\SDL_test_font.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test_fuzzer.h">INCLUDE\SDL3\SDL_test_fuzzer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test_harness.h">INCLUDE\SDL3\SDL_test_harness.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test_log.h">INCLUDE\SDL3\SDL_test_log.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test_md5.h">INCLUDE\SDL3\SDL_test_md5.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_test_memory.h">INCLUDE\SDL3\SDL_test_memory.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_thread.h">INCLUDE\SDL3\SDL_thread.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_time.h">INCLUDE\SDL3\SDL_time.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_timer.h">INCLUDE\SDL3\SDL_timer.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_touch.h">INCLUDE\SDL3\SDL_touch.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_tray.h">INCLUDE\SDL3\SDL_tray.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_version.h">INCLUDE\SDL3\SDL_version.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_video.h">INCLUDE\SDL3\SDL_video.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL_vulkan.h">INCLUDE\SDL3\SDL_vulkan.h</ProjectItem>
+	  <ProjectItem ReplaceParameters="false" TargetFileName="SDL3.lib">LIB\ARM64\SDL3.lib</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="SDL3.dll">LIB\ARM64\SDL3.dll</ProjectItem>
+	  <ProjectItem ReplaceParameters="false" TargetFileName="SDL3.lib">LIB\X64\SDL3.lib</ProjectItem>
+	  <ProjectItem ReplaceParameters="false" TargetFileName="SDL3.dll">LIB\X64\SDL3.dll</ProjectItem>
+	  <ProjectItem ReplaceParameters="false" TargetFileName="SDL3.lib">LIB\X86\SDL3.lib</ProjectItem>
+	  <ProjectItem ReplaceParameters="false" TargetFileName="SDL3.dll">LIB\X86\SDL3.dll</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
